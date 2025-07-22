@@ -177,3 +177,25 @@
     padding: 1.5rem;
     background-color: #f4f6f9;
 }
+.user-panel {
+    padding: 0.5rem 1rem; 
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem; 
+    border-bottom: 1px solid rgba(255,255,255,.1);
+    display: flex; 
+    align-items: center; 
+}
+.user-panel .info a {
+    color: #fff;
+    display: block;
+}
+.d-block-text-white {
+    display: block;
+    color: #fff;
+}
+/* Example: Change the background of the active nav-link within the sidebar */
+.nav-sidebar .nav-link.active {
+    background-color: #055468;
+    border-left: 3px solid transparent;
+    /* border-left-color: #0b0a0a */
+}
