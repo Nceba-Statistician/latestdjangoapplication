@@ -208,3 +208,8 @@
     font-weight: bold;
     color: gray
 }
+.text {
+    font-size: 12px;
+    margin-top: 1rem;
+    color: #4B5563
+}

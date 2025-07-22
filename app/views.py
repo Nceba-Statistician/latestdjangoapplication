@@ -10,8 +10,8 @@ def frontpage(request):
 def home_view(request):
     return render(request, 'components/home.html', {'page_title': 'Home'})
 
-def about_view(request):
-    return render(request, 'components/about.html', {'page_title': 'About Us'})
+def dashboard_view(request):
+    return render(request, 'components/dashboard.html', {'page_title': 'Dashboard'})
 
 def product_list_view(request):
     products = [
