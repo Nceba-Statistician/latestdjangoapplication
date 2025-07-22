@@ -193,7 +193,7 @@
     display: block;
     color: #fff;
 }
-/* Example: Change the background of the active nav-link within the sidebar */
+
 .nav-sidebar .nav-link.active {
     background-color: #055468;
     border-left: 3px solid transparent;
