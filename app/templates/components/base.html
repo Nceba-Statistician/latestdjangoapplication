@@ -12,7 +12,7 @@
     <div class="main-wrapper">
         <aside class="main-sidebar">
             <a href="{% url 'home' %}" class="brand-link">
-                <span class="brand-text font-weight-light">Neuro Flow Application</span>
+                <span class="main-heading">Neuro Flow Application</span>
             </a>
             <div class="sidebar">
                 {% if request.user.is_authenticated %}
@@ -43,7 +43,7 @@
         </aside>
 
         <div class="content-wrapper">
-            <h1 class="text-3xl font-bold mb-6 text-gray-800">{{ page_title }}</h1>
+            <h1 class="heading">{{ page_title }}</h1>
             {% block content %}
             {% endblock content %}
         </div>
